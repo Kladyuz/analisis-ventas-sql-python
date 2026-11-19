@@ -27,6 +27,9 @@ El objetivo principal fue conectar Python a una base de datos PostgreSQL, extrae
 * `funciones.py`: Módulo de Python con funciones reutilizables para filtrar y conectar con la BD.
 * `README.md`: Documentación del proyecto.
 
+## ▶️ Cómo ejecutarlo
+El notebook se conecta a una base PostgreSQL local `classicmodels` con el usuario `postgres`. La contraseña no está en el código: se lee de la variable de entorno `PG_PASSWORD`, que debes definir antes de abrir Jupyter.
+
 ## 📊 Resultados Clave
 Se generaron tablas en PostgreSQL con:
 * **Top 10 Clientes (2005):** Ranking basado en ventas brutas.
